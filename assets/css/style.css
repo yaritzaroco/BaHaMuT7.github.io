@@ -1,0 +1,44 @@
+/* Generales */
+.text-justified {
+    text-align: justify;
+}
+
+.titulo-generico {
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+/* header */
+.fuente-logo {
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+}
+
+.fuente-nav-item {
+    font-size: 2rem;
+}
+
+.blue-linkedin {
+    color: rgb(14, 79, 181);
+}
+
+.hero-p {
+    font-family: 'Roboto Serif', serif;
+    font-size: 1.3rem;
+}
+
+.hero-medalla {
+    color: #FFD700;
+    font-size: 7rem;
+}
+
+/* main */
+
+main img {
+
+}
+
+.icono-boton {
+    font-size: 1rem;
+}

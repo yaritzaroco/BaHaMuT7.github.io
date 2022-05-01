@@ -1,28 +1,181 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Normalizador -->
-    <link rel="stylesheet" href="assets/css/normalize.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/normalize.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2ee6eaefdd.js" crossorigin="anonymous"></script>
 
-    <!-- CSS de Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <title>Portafolio - Raúl Pardo Zurita</title>
+</head>
 
-    <!-- CSS personal -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+<body>
+  <header class="container-fluid g-0">
+    <div class="row bg-black">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+          <div class="container-fluid">
+            <a class="navbar-brand fuente-logo" href="#">
+              <h1>Raúl Pardo Zurita</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/BaHaMuT7" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github fuente-nav-item text-light"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.linkedin.com/in/raúl-pardo-zurita-43b069142/" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin-in fuente-nav-item blue-linkedin"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.facebook.com/Piercing.Strike" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook fuente-nav-item text-primary"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mailto:bahamut@bahatech.cl" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-envelope fuente-nav-item text-info"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row bg-black">
+      <div class="col-12">
+        <img src="assets/img/bg-hero.jpg" alt="Imagen código" class="img-fluid" />
+      </div>
+      <div class="col-12">  
+        <div class="pb-5">
+          <div class="text-center">
+            <i class="fa-solid fa-medal hero-medalla"></i>
+          </div>
+          <h2 class="text-center text-light titulo-generico pt-5">Desarrollador front-end</h2>
+          <p class="text-light text-justified hero-p pt-5">Hola, soy Raúl Pardo Zurita, mi portafolio es una representación de todo lo
+            atesorado y conseguido como Ingeniero Informático en mis 2 años de experiencia.</p>
+            <p class="text-light text-justified hero-p">Te invito a revisar mis trabajos y experiencia profesional en mis redes.</p>  
+        </div>  
+      </div>    
+    </div>
+  </header>
+  <main class="container-fluid bg-black">
+    <section class="row bg-black">
+      <div class="col-12">
+        <h2 class="titulo-generico text-light text-center">Mis trabajos</h2>
+      </div>
+      <div class="col-12 pt-3">
+        <div class="card">
+          <img src="assets/img/cv.png" class="card-img-top" alt="Proyecto CV">
+          <div class="card-body">
+            <h5 class="card-title">CV</h5>
+            <p class="card-text">En este proyecto se puede ver un CV elemental con etiquetas HTML básicas.</p>
+            <div class="text-center">
+              <a href="https://github.com/BaHaMuT7/cv" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github icono-boton"></i> Revisar repositorio
+              </a>
+              <a href="https://bahamut7.github.io/cv/" class="btn btn-success" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-link icono-boton"></i> Revisar versión web
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>   
+      <div class="col-12 pt-3">
+        <div class="card">
+          <img src="assets/img/tienda.png" class="card-img-top" alt="Proyecto tienda">
+          <div class="card-body">
+            <h5 class="card-title">Tienda</h5>
+            <p class="card-text">En este proyecto se construye una mini tienda. Fue realizado con las bases de CSS</p>
+            <div class="text-center">
+              <a href="https://github.com/BaHaMuT7/tienda" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github icono-boton"></i> Revisar repositorio
+              </a>
+              <a href="https://bahamut7.github.io/tienda/" class="btn btn-success" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-link icono-boton"></i> Revisar versión web
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>  
+      <div class="col-12 pt-3">
+        <div class="card">
+          <img src="assets/img/iguana.png" class="card-img-top" alt="Proyecto iguana">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>  
+      <div class="col-12 pt-3">
+        <div class="card">
+          <img src="assets/img/cupon.png" class="card-img-top" alt="Proyecto cupones">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>  
+      <div class="col-12 pt-3">
+        <div class="card">
+          <img src="assets/img/comida.png" class="card-img-top" alt="Proyecto comidas excéntricas">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <section class="row bg-black">
+      <div class="col-12">
+        <h2 class="titulo-generico text-light text-center">Colaboraciones</h2>
+      </div> 
+      <div class="col-12 pt-3">
+        <div class="card">
+          <img src="assets/img/colab1.png" class="card-img-top" alt="Proyecto CV">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div> 
+      <div class="col-12 pt-3">
+        <div class="card">
+          <img src="assets/img/colab2.png" class="card-img-top" alt="Proyecto CV">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div> 
+    </section>    
+  </main>
+  <!-- JS de bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
 
-    <!-- Otros --> 
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-
- 
-    <!-- JS de bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
 </html>
