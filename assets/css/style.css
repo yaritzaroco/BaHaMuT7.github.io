@@ -33,12 +33,13 @@
     font-size: 7rem;
 }
 
-/* main */
-
-main img {
-
-}
-
 .icono-boton {
     font-size: 1rem;
+}
+
+/* footer */
+.letra-footer {
+    font-family: 'Roboto Serif', serif;
+    font-weight: bolder;
+    font-size: 1.357rem;
 }
